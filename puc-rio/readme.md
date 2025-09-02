@@ -28,3 +28,21 @@ Considerando esta descrição, identifique e represente através de um DER
 Crie e registre em um Dicionário de Dados outras informações relevantes extraídas desta descrição.
 
 ## AULA 02 ##
+
+Neste exercício você irá praticar a transformação do modelo de dados da aplicação Plataforma de aluguel de imóvel por temporada em um banco de dados relacional. 
+
+O primeiro passo é  gerar o Modelo Lógico na 3FN aplicando as regras de mapeamento e depois as técnicas de Normalização apresentadas na Aula 02 no seu DER gerado na prática da Aula 01. 
+
+*Mas atenção!* Caso você utilize o brModelo para gerar o Modelo Lógico a partir do DER é necessário verificar a qualidade do modelo gerado. Realize os ajustes pertinentes, aplicando as regras de mapeamento e as técnicas de normalização.
+
+Em seguida você precisará elaborar: 
+
+    • Comandos de Criação de Tabelas com Atributos e Restrições de Integridade
+    • Comandos de Consulta ao Dicionário de Dados do SGBD para verificar os objetos criados
+    
+*Mas atenção!!* Caso você utilize o brModelo para gerar o script de criação das tabelas (modelo físico) a partir do Modelo Lógico, é necessário, antes de executar no sqlite, ajustar os comandos DDL gerados da seguinte forma:
+
+    • Alterar os comandos CREATE TABLE de modo a incluir todas as constraints necessárias (PRIMARY KEY, FOREIGN KEY, NOT NULL, CHECK, DEFAULT e UNIQUE);
+    • Remover os comandos ALTER TABLE;
+    • Revisar e alterar a ordem de criação de tabelas com base na precedência para tabelas referenciadas por FOREIGN KEY e
+    • Opcionalmente, nomear todas as constraints.
