@@ -1,4 +1,4 @@
-## AULA 01 ##
+## EXERCÍCIO 01 ##
 
 *Aplicação: Plataforma de aluguel de imóvel por temporada*
 
@@ -27,7 +27,7 @@ Considerando esta descrição, identifique e represente através de um DER
 
 Crie e registre em um Dicionário de Dados outras informações relevantes extraídas desta descrição.
 
-## AULA 02 ##
+## EXERCÍCIO 02 ##
 
 Neste exercício você irá praticar a transformação do modelo de dados da aplicação Plataforma de aluguel de imóvel por temporada em um banco de dados relacional. 
 
